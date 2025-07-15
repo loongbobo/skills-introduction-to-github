@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/swiper.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <style type="text/css">
+        body {
+            background: #eee;
+            font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            color: #000;
+            margin: 0;
+            padding: 0;
+        }
+        #banner{
+        	height:630px;
+        }
+
+        .swiper-container {
+            width: 100%;
+            height: 632px;
+        }
+
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+
+            /* Center slide text vertically */
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+        }
+    </style>
+    <title>萌动岛</title>
+</head>
+<body>
+    <!-- 导航栏 -->
+    <div id="nav">
+        <div class="container">
+            <div class="logo left">
+                <a href="index.html"><img src="img/logo.png" alt=""></a>
+            </div>
+            <ul class="right">
+                <li><a href="index.html">首页</a></li>
+                <li><a href="stu.html">分类</a></li>
+                <li><a href="movement_dog.html">萌宠动态</a></li>
+                <li><a href="#">宠物知识</a></li>
+                <li><a href="fodder.html">饲料售卖</a></li>
+                
+                <li><a href="about_we.html">关于我们</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- 滚动图 -->
+    <div id="banner"> 
+        <!-- <div class="container"></div> -->
+        <div id="banner">
+            <!-- <div class="container"></div> -->
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="img/刺猬.png" width="100%;" height="630"></div>
+                    <div class="swiper-slide"><img src="img/土拨鼠.png" width="100%;" height="630"></div>
+                    <div class="swiper-slide"><img src="img/土狗.png" width="100%;" height="630"></div>
+                    <div class="swiper-slide"><img src="img/宠物人.png" width="100%;" height="630"></div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next">1</div>
+                <div class="swiper-button-prev"></div>
+            </div>
+            <div class="banner-nav-bg"></div>
+        </div>
+    </div>
+    <!-- 萌宠动态 -->
+     <div id="movement">
+        <div class="container">
+            <div class="title">萌宠动态</div>
+            <div>
+                <div class="move_box">
+                    <div class="left"><img src="img/萨摩耶.png" alt=""></div>
+                    <div class="mr left"><h2>萨摩耶</h2><p>萨摩耶喜爱追逐，奔跑，流口水，舔人</p></div>
+                </div>
+                <div class="move_box">
+                    <div class="left"><img src="img/次威威.png" alt=""></div>
+                    <div class="mr left"><h2>刺猬宝宝</h2><p>刚出生的刺猬宝宝，刺还是软的手感一级棒</p></div>
+                </div>
+                <div class="move_box">
+                    <div class="left"><img src="img/双目无神.png" alt=""></div>
+                    <div class="mr left"><h2>挖洞小子</h2><p>地下打洞小能手李哥的阴暗好伙伴</p></div>
+                </div>
+            </div>
+        </div>
+     </div>
+    <!-- 宠物知识 -->
+    <div id="know">
+        <div class="container">
+            <div class="title">宠物知识</div>
+            <ul>
+                <li class="a1 fade">
+                    <div>
+                        <div>
+                            <img src="img/懒神.jpg" alt="">
+                        </div>
+                        <p>狗不吃怎么办，潘宏来教你如何吃饭</p>
+                    </div>
+                </li>
+                <li class="line"></li>
+                <li class="a2 fade">
+                    <div>
+                        <div>
+                            <img src="img/忧郁猫.jpg" alt="">
+                        </div>
+                        <p>猫真实叫声，总是夹子音是什么情况</p>
+                    </div>
+                </li>
+                <li class="line"></li>
+                <li class="a3 fade">
+                    <div>
+                        <div>
+                            <img src="img/封面蛇.jpg" alt="">
+                        </div>
+                        <p>蛇为什么会把自己吃胀死</p>
+                    </div>
+                </li>
+                <li class="line"></li>
+                <li class="a4 fade">
+                    <div>
+                        <div>
+                            <img src="img/胆小如鼠.png" alt="">
+                        </div>
+                        <p>仓鼠为什么会突然变硬</p>
+                    </div>
+                </li>
+                <li class="line"></li>
+            </ul>
+        </div>
+    </div>
+    <!-- 饲料售卖 -->
+    <div id="fodder">
+        <div class="container">
+            <div class="title">饲料售卖</div>
+            <ul>
+                <li class="a1 fade">
+                    <div>
+                        <div>
+                            <img src="img/饲料1.png" alt="">
+                        </div>
+                        <h2>狗狗乐饲料</h2>
+                        <p>鸡肉味很香</p>
+                        <p class="money">&yen;1000 立即购买</p>
+                    </div>
+                </li>
+                <li class="line"></li>
+                <li class="a2 fade">
+                    <div>
+                        <div>
+                            <img src="img/饲料2.png" alt="">
+                        </div>
+                        <h2>狗狗爽饲料</h2>
+                        <p>猪肉味很香</p>
+                        <p class="money">&yen;1000 立即购买</p>
+                    </div>
+                </li>
+                <li class="line"></li>
+                <li class="a3 fade">
+                    <div>
+                        <div>
+                            <img src="img/饲料3.jpg" alt="">
+                        </div>
+                        <h2>狗狗不爽饲料</h2>
+                        <p>狗味很重</p>
+                        <p class="money">&yen;1000 立即购买</p>
+                    </div>
+                </li>
+                <li class="line"></li>
+                <li class="a4 fade">
+                    <div>
+                        <div>
+                            <img src="img/饲料4.png" alt="">
+                        </div>
+                        <h2>宠物都爱9合1饲料</h2>
+                        <p>用做饲料、机油、洗发水、牙膏、润滑油、沐浴露、清洁剂、可乐、发胶</p>
+                        <p class="money">&yen;1000 立即购买</p>
+                    </div>
+                </li>
+                <li class="line"></li>
+            </ul>
+        </div>
+    </div>
+    <!-- 最萌宠物 -->
+    <div id="maxlovely">
+        <div class="container">
+            <div class="title">最萌宠物</div>
+            <div class="world_main">
+                <div class="world_left left">
+                    <div  class="a1 fade">
+                        <div>
+                            <img src="img/虎与猫.png">
+                        </div>
+                        
+                    </div>
+                    <div  class="a2 fade">
+                        <div>
+                            <img src="img/蛇.png">
+                        </div>
+                        
+                    </div>
+                    <div class="a3 fade">
+                        <div>
+                            <img src="img/貂.png">
+                        </div>
+                    </div>
+                    <div class="a4 fade">
+                        <div>
+                            <img src="img/萨摩耶.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="world_right right">
+                    <div class="world_title">
+                        <div class="news">新闻</div>
+                        <div class="weibo">微博</div>
+                    </div>
+                    <ul>
+                        <li>
+                            <dl>
+                                <dt>
+                                    <img src="img/刺猬.png">
+                                </dt>
+                                <dd>震惊！刺猬竟然把自己扎死！！！</dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt>
+                                    <img src="img/刺猬.png">
+                                </dt>
+                                <dd>震惊！毒蛇被毒蛇的毒牙咬中被毒牙的毒液毒死了！！！</dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt>
+                                    <img src="img/刺猬.png">
+                                </dt>
+                                <dd>震惊！宠物榜第一竟然与第三干起来了！！！</dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt>
+                                    <img src="img/刺猬.png">
+                                </dt>
+                                <dd>可怕！？猫竟然喜欢在床上上厕所！！！</dd>
+                            </dl>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 关于我们 -->
+    <div id="footer">
+        <p>联系方式：</p>
+        <p>QQ: ***</p>
+        <p>微信: ***</p>
+        <p>电话: ***</p>
+        <p>邮编: ***</p>
+        <p>地址: ***</p>
+        <p>传真: ***</p>
+        
+      </div>
+    <script type="text/javascript" src="js/swiper.js"></script>
+    <script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript">
+        var nav = document.getElementById("nav");
+        var navTop = nav.offsetTop;
+        console.log(navTop)
+         window.onscroll = function(){
+            var backTop = document.documentElement.scrollTop || document.body.scrollTop;
+            if(backTop >= navTop){
+                nav,style.position = "fixed";
+                nav.style.top = "0";
+                nav.style.left = "0"
+                nav.style.zIndex = "100"
+            }else{
+                nav,style.position = "";
+            }
+         }
+    </script>
+    <script type="text/javascript">
+        var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        paginationClickable: true,
+        loop: true,
+        autoplay: 3000,
+        speed: 1000,
+        prevButton: '.swiper-button-prev',
+        nextButton: '.swiper-button-next',
+        effect: 'fade',//  effect: 'flip',effect: 'coverflow',slide', 'fade',cube
+        grabCursor: true,
+        cube: {
+            shadow: false,
+            slideShadows: false,
+            shadowOffset: 20,
+            shadowScale: 0.94
+        }
+    });
+    </script>
+
+</body>
+</html>

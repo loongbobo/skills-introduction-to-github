@@ -1,0 +1,135 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+ol,ul{
+    list-style-type: none;
+}
+body{
+    background-color: #d6b455;
+}
+a{
+    color: #666;
+    text-decoration: none;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.title{
+    text-align: center;
+    margin: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+#nav{
+    height: 90px;
+    background-color: #EEEEEE;
+}
+#nav img{
+    height: 90px;
+}
+#nav li{
+    float: left;
+    margin: 0px 15px;
+    line-height: 90px;
+}
+#nav li a{
+    color: #666;
+    font-weight: bold;
+}
+#nav li a:hover{
+    color: red;
+}
+.love{
+    width: 100px;
+    height: 100px;
+    background-color: #fa0e0e;
+    border-radius: 50%;
+    margin: 10px auto;
+    margin-top: 60px;
+}
+.love p{
+    margin-left: 30px;
+    padding-top: 30px;
+    color: #dcb400;
+    font-size: 30px;
+    font-weight: bold;
+    /* background-color: #521afb; */
+}
+.tu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+    /* background-color: #711717; */
+    margin: 0 auto;
+}
+.tul{
+    margin: 30px;
+    float: left;
+    width: 200px;
+    height: 600px;
+    /* background-image: url(/萌动岛_1/img/巴扎黑.png); */
+    background-color: #ff9900;
+    /* background-color: rgba(255,255,255,0.5); */
+    /* background-blend-mode: multiply; */
+    border-radius: 5%;
+}
+.tul p{
+    line-height: 150px;
+    margin-top: 30px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+}
+.tupian{
+    margin: 0px 300px;
+    float: left;
+    /* margin: 0 auto; */
+    width: 400px;
+    height: 600px;
+    /* background-color: #69ff1e; */
+}
+.tupian img{
+    width: 400px;
+}
+.tur{
+    margin: 30px;
+    float: left;
+    width: 200px;
+    height: 600px;
+    background-color: #ff9900;
+    border-radius: 5%;
+}
+.tur p{
+    line-height: 150px;
+    margin-top: 30px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+}
+#footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    bottom: 0;
+    width: 100%;
+    height: 200px;
+  }
+  .footer-qr-code {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .footer-qr-code img {
+    width: 50px;
+    margin: 0 10px;
+  }

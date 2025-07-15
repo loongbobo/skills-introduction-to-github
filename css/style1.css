@@ -1,0 +1,155 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 14px;
+    background-color: #050505;
+}
+ol,ul{
+    list-style-type: none;
+}
+a{
+    color: #666;
+    text-decoration: none;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+#nav{
+    height: 90px;
+    background-color: #EEEEEE;
+}
+#nav img{
+    height: 90px;
+}
+#nav li{
+    float: left;
+    margin: 0px 15px;
+    line-height: 90px;
+}
+#nav li a{
+    color: #666;
+    font-weight: bold;
+}
+#nav li a:hover{
+    color: red;
+}
+#header_cat{
+    width: 100%;
+    height: 1000px;
+    background-image: url(../img/小猫老弟.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment:scroll;
+}
+#header_dog{
+    width: 100%;
+    height: 1000px;
+    background-image: url(../img/dog2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment:scroll;
+}
+#header_snake{
+    width: 100%;
+    height: 1000px;
+    background-image: url(../img/封面蛇.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment:scroll;
+}
+#header_diao{
+    width: 100%;
+    height: 1000px;
+    background-image: url(../img/封面貂.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment:scroll;
+}
+#header_shu{
+    width: 100%;
+    height: 1000px;
+    background-image: url(../img/封面鼠.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment:scroll;
+}
+#header_ciwei{
+    width: 100%;
+    height: 1000px;
+    background-image: url(../img/封面刺猬.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment:scroll;
+}
+#font{
+    width: 200px;
+    height: 200px;
+    /* background-color: #fff; */
+    color: #ffffff;
+    float: right;
+    margin-top: 100px;
+    margin-right: 100px;
+    font-size: 30px;
+}
+.small_box{
+    width: 100%;
+    height: 50px;
+    font-size: 40px;
+    background-color: #f7ebc5;
+    text-align: center;
+    padding-top: 10px;
+}
+#main{
+    width: 100%;
+    height: 1500px;
+    background-color: #f7ebc5;
+}
+.grid-container{
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-right: 10px;
+    padding-left: 10px;
+    /* width: 1200px; */
+    height: 750px;
+    /* background-color: #fffd92; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    grid-gap: 30px;
+}
+.grid-item{
+    /* background-color: #a3ff58; */
+    border: 2px solid rgb(46, 45, 45);
+    font-size: 18px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+.grid-item p{
+    border: 1px black;
+    border-radius: 10px;
+    background-color: #fff;
+    margin-top: 15px;
+}
+.grid-item img{
+    width: 400px;
+    height: 300px;
+}
+#footer{
+    width: 100%;
+    height: 200px;
+    background-color: #919191;
+}

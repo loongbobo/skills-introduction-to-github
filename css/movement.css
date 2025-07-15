@@ -1,0 +1,106 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+ol,ul{
+    list-style-type: none;
+}
+a{
+    color: #666;
+    text-decoration: none;
+}
+body{
+    background-color: #fff700;
+}
+.right{
+    float: right;
+}
+.left{
+    float: left;
+}
+/* 测试部分 */
+#nav{
+    width: 100%;
+    height: 100px;
+    /* border: 1px solid black; */
+}
+.container{
+    /* width: 1280px; */
+    /* border: 1px solid red; */
+    margin: 0 auto;
+}
+/* 设置导航栏样式 */
+#nav{
+    height: 90px;
+    background-color: #EEEEEE;
+}
+#nav img{
+    height: 90px;
+}
+#nav li{
+    float: left;
+    margin: 0px 15px;
+    line-height: 90px;
+}
+#nav li a{
+    color: #666;
+    font-weight: bold;
+}
+#nav li a:hover{
+    color: red;
+}
+.move{
+    width: 100%;
+    /* background-color: #3c19a6; */
+    color: #000;
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.tupian{
+    margin: 0 auto;
+    text-align: center;
+}
+.tupian img{
+    width: 500px;
+}
+.tupian p{
+    padding-top: 30px;
+    font-size: 20px;
+    line-height: 247px;
+    height: 300px;
+    width: 1280px;
+    background-color: #ff9900;
+    border-radius: 30%;
+    margin: 0 auto;
+}
+hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    height: 3px;
+    width: "100%";
+    background-color: #80d3d9;
+}
+#footer {
+    margin-top: 20px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    bottom: 0;
+    width: 100%;
+    height: 200px;
+  }
+  .footer-qr-code {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .footer-qr-code img {
+    width: 50px;
+    margin: 0 10px;
+  }
